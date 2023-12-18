@@ -1,5 +1,4 @@
 body{
-    background-color:lightcyan;
     position: absolute;
     left: 38%;
     top: 20%;
@@ -20,23 +19,26 @@ body{
     
 
 }
-.button {
-    border-radius: 25px;
-    background-color: white;
-    padding: 8px;
-    width: 48px;
+.btn img {
+   height: 40px;
+   width: 40px;
+   background-color: white;
 }
 input {
-    border-radius: 25px;
+    border: 0;
     padding: 11px;
     text-align: center;
     font-style: italic;
     font-weight: bold;
     width: 200px;
-   
+    border-radius: 25px;
 }
-img {
-    margin-left: -22px;
+.w_img {
+    margin-left: 5px;
     height: 233px;
     margin-top: -11px;
+}
+.humidity{
+    height: 30px;
+    width: 30px;
 }
